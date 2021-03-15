@@ -1,0 +1,48 @@
+.intro {
+  /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro_title {
+  color: #29a2ec;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.zero_point_two_cm_vertical_space {
+  margin-bottom: 0.2cm;
+}
+
+.zero_point_three_cm_vertical_space {
+  margin-bottom: 0.3cm;
+}
+
+.zero_point_five_cm_vertical_space {
+  margin-bottom: 0.5cm;
+}
+
+.zero_point_eight_cm_vertical_space {
+  margin-bottom: 0.8cm;
+}
+
+.one_cm_vertical_space {
+  margin-bottom: 1cm;
+}
+
+.one_point_five_cm_vertical_space {
+  margin-bottom: 1.5cm;
+}
+
+.two_cm_vertical_space {
+  margin-bottom: 2cm;
+}
+
+.photo {
+  border: 2.5px solid white;    
+}
+
+.text_customized {
+  font-family: Georgia, serif;
+}
