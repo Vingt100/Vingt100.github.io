@@ -66,13 +66,11 @@ export default function Projects() {
         <div className="zero_point_five_cm_vertical_space"/>
         <div className="row">
         <div>
-         <a  
-          href="https://www.eurecom.fr/"
-          target="_blank">
+         <a href="https://www.eurecom.fr/" target="_blank">
           <img 
-          className="EURECOM_logo" 
-          src={process.env.PUBLIC_URL +'/Logo/eurecom_logo.png'}
-          alt="EURECOM_logo"/></a>
+            className="EURECOM_logo" 
+            src={process.env.PUBLIC_URL +'/Logo/eurecom_logo.png'}
+            alt="EURECOM_logo"/></a>
           </div>
           <div 
           style={{marginTop:20, marginRight:20, marginLeft: 20}}>
@@ -217,7 +215,7 @@ export default function Projects() {
           <a  href="https://www.telecom-sudparis.eu/" target="_blank">
             <img 
             className="TSP_logo" 
-            src={process.env.PUBLIC_URL +'/Logo/logo_TSP.jpg'}
+            src={process.env.PUBLIC_URL +'/Logo/Logo_TSP.jpg'}
             alt="TSP_logo"/></a> 
           </div>
           <div style={{marginTop:20, marginRight: 20, marginLeft: 20}}>

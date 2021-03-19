@@ -315,7 +315,7 @@
         color: #29a2ec;
         text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
         list-style-type: upper-roman;
-        margin-left: 1.5cm;
+        margin-left: 2cm;
         margin-right: 0cm;
     }
 
@@ -364,8 +364,8 @@
     
     .pitch_gate_mobile {
         border: 2px solid white; 
-        width: 450px;   
-        height: 280px;
+        width: 380px;
+        height: 300px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -419,8 +419,8 @@
 
     .poster_programme_jeunes {
         border: 2px solid black; 
-        width: 440px;   
-        height: 600px;
+        width: 60%;   
+        height: 50%;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -429,8 +429,8 @@
     
     .affiche_programme_jeunes {
         border: 2px solid black; 
-        width: 440px;   
-        height: 600px;
+        width: 60%;   
+        height: 50%;
         display: block;
         margin-left: auto;
         margin-right: auto;

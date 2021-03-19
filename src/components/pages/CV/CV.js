@@ -30,7 +30,7 @@ export default function CV() {
             <div className="zero_point_five_cm_vertical_space"/>
             <li className="title_li"><a 
                                         className="SectionLink_without_deco"
-                                        id="gotoTopFoch" href="#gotoFoch">Data Science Internship at the Foch Hospital</a></li>
+                                        id="gotoTopFoch" href="#gotoFoch">Data Science Internship - Foch Hospital</a></li>
             <div className="zero_point_five_cm_vertical_space"/>
             <li className="title_li"><a
                                         className="SectionLink_without_deco" 
@@ -46,7 +46,7 @@ export default function CV() {
             <div className="zero_point_five_cm_vertical_space"/>
             <li className="title_li"><a
                                       className="SectionLink_without_deco" 
-                                      id="gotoTopAilly" href="#gotoAilly">Prepatory Class - Pierre d'Ailly High School</a></li>
+                                      id="gotoTopAilly" href="#gotoAilly">Preparatory Class - Pierre d'Ailly H.S</a></li>
         </ul>
         </div>
       </div>
