@@ -11,73 +11,48 @@ import Internship_report from './Internship_report.pdf';
 export default function CV() {
   return ( 
     <>
-    <body style={{marginLeft: 30, marginRight: 30}}>
+    <body className="body_margin">
     &nbsp;
       <div>
-        <h1 
-        style={{fontSize: 40}}
-        className="title">
-                More details about my CV
-        </h1>
+        <h1 className="title_style">More details about my CV</h1>
         <div className="zero_point_three_cm_vertical_space"/>
         <i><a 
-          style={{color: "blue"}}
-          className="center"
-          href={Internship_report} 
-          target="_blank">Click here to see my CV</a></i>
+             style={{color: "blue"}}
+             className="center"
+             href={Internship_report} 
+             target="_blank">Click here to see my CV</a></i>
         <div className='row'>
         <ul className="table_of_contents_style">
-          <div className="zero_point_five_cm_vertical_space"/>
-          <li>
-          <a 
-          className="SectionLink_without_deco"
-          id="gotoTopFGB" href="#gotoFGB">The Georges Besse Foundation</a>
-          </li>
-          <div className="zero_point_five_cm_vertical_space"/>
-            <li>
-            <a 
-            className="SectionLink_without_deco"
-            id="gotoTopFoch" href="#gotoFoch">
-              Data Science Internship at the Foch Hospital
-            </a>
-            </li>
             <div className="zero_point_five_cm_vertical_space"/>
-            <li>
-            <a
-            className="SectionLink_without_deco" 
-            id="gotoTopAFM" href="#gotoAFM">
-              GATE - AFM Téléthon
-            </a>
-            </li>
+            <li className="title_li"><a 
+                                        className="SectionLink_without_deco"
+                                        id="gotoTopFGB" href="#gotoFGB">The Georges Besse Foundation</a></li>
             <div className="zero_point_five_cm_vertical_space"/>
-            <li>
-            <a
-            className="SectionLink_without_deco" 
-            id="gotoTopEURECOM" href="#gotoEURECOM">
-              EURECOM
-            </a>
-            </li>
+            <li className="title_li"><a 
+                                        className="SectionLink_without_deco"
+                                        id="gotoTopFoch" href="#gotoFoch">Data Science Internship at the Foch Hospital</a></li>
             <div className="zero_point_five_cm_vertical_space"/>
-            <li>
-            <a
-            className="SectionLink_without_deco" 
-            id="gotoTopTSP" href="#gotoTSP">
-              TSP
-            </a>
-            </li>
+            <li className="title_li"><a
+                                        className="SectionLink_without_deco" 
+                                        id="gotoTopAFM" href="#gotoAFM">GATE - AFM Téléthon</a></li>
             <div className="zero_point_five_cm_vertical_space"/>
-            <li>
-            <a
-            className="SectionLink_without_deco" 
-            id="gotoTopAilly" href="#gotoAilly">
-              Prepatory Class - Pierre d'Ailly High School
-            </a>
-            </li>
+            <li className="title_li"><a
+                                      className="SectionLink_without_deco" 
+                                      id="gotoTopEURECOM" href="#gotoEURECOM">EURECOM</a></li>
+            <div className="zero_point_five_cm_vertical_space"/>
+            <li className="title_li"><a
+                                      className="SectionLink_without_deco" 
+                                      id="gotoTopTSP" href="#gotoTSP">TSP</a></li>
+            <div className="zero_point_five_cm_vertical_space"/>
+            <li className="title_li"><a
+                                      className="SectionLink_without_deco" 
+                                      id="gotoTopAilly" href="#gotoAilly">Prepatory Class - Pierre d'Ailly High School</a></li>
         </ul>
         </div>
       </div>
       <div className="one_cm_vertical_space"/>
       <div className="row">
+      <div className="two_cm_vertical_space"/>
       <div>
         <h3 className="title"
         style={{marginRight:45, marginTop: 35}}>
@@ -92,14 +67,13 @@ export default function CV() {
       <div>
         <div
         className="title">
-          <a  
+          <a 
             href="http://www.fondationbesse.com/fgb/"
             target="_blank"> {/* _blank to open in an other tab (onglet) */}
                         <img 
-            className="logo_black_border" 
-            src='/Logo/logo_fgb.png' 
-            width="90" height="90" 
-            alt="Georges Besse fondation"/>
+                          className="fgb_logo" 
+                          src={process.env.PUBLIC_URL +'/Logo/logo_fgb.png'} 
+                          alt="FGB logo"/>
             </a>
         </div>
       </div>
@@ -155,10 +129,9 @@ export default function CV() {
             href="https://www.eurecom.fr/"
             target="_blank"> {/* _blank to open in an other tab (onglet) */}
                         <img 
-            className="logo_black_border" 
-            src='/Logo/eurecom_logo.png' 
-            width="200" height="80" 
-            alt="EURECOM_logo"/>
+            className="EURECOM_logo" 
+            src={process.env.PUBLIC_URL +'/Logo/eurecom_logo.png'}  
+            alt="EURECOM logo"/>
             </a>
         </div>
       </div>
@@ -177,17 +150,13 @@ export default function CV() {
       </div>
       <div className="zero_point_five_cm_vertical_space"/>
       <div>
-        <div
-        className="title">
+        <div className="title">
           <a  
             href="https://www.telecom-sudparis.eu/"
-            target="_blank"> {/* _blank to open in an other tab (onglet) */}
-                        <img 
-            className="logo_black_border" 
-            src='/Logo/Logo_TSP.jpg' 
-            width="90" height="90" 
-            alt="TSP_logo"/>
-            </a>
+            target="_blank"><img 
+            className="TSP_logo"
+            src={process.env.PUBLIC_URL +'/Logo/Logo_TSP.jpg'}
+            alt="TSP_logo"/></a>
         </div>
       </div>
       </div>
@@ -198,23 +167,19 @@ export default function CV() {
         <h3 className="title" style={{marginRight:45, marginTop: 15}}>
           <p> <span style={{marginRight:30, color: "black"}} >2017-2019</span>
             <a 
-            className="SectionLink_without_deco"
-            id="gotoAilly" href="#gotoTopAilly">
-              VI.Prepatory Class - Pierre d'Ailly High School
-              </a></p></h3>
+              className="SectionLink_without_deco"
+              id="gotoAilly" href="#gotoTopAilly">VI.Prepatory Class - Pierre d'Ailly High School</a></p></h3>
         </div>
         <div className="zero_point_five_cm_vertical_space"/>
         <div>
-          <div
-          className="title">
-          <a  
-            href="http://dailly.lyc.ac-amiens.fr/"
-            target="_blank"> {/* _blank to open in an other tab (onglet) */}
-                        <img 
-            className="logo_black_border" 
-            src='/Logo/LPA_logo.png' 
-            width="230" height="50" 
-            alt="LPA_logo"/>
+          <div className="title">
+            <a  
+              href="http://dailly.lyc.ac-amiens.fr/"
+              target="_blank"> {/* _blank to open in an other tab (onglet) */}
+                          <img 
+                            className="LPA_logo" 
+                            src={process.env.PUBLIC_URL +'/Logo/LPA_logo.png'} 
+                            alt="LPA_logo"/>
             </a>
         </div>
       </div>

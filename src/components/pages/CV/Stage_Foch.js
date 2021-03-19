@@ -1,6 +1,7 @@
 import React from 'react';
 import './CV.css';
 import Internship_report from './Internship_report.pdf';
+import Technical_Internship_report from './Technical_Internship_report.pdf';
 
 export default function Stage_Foch () { 
         return (
@@ -9,41 +10,33 @@ export default function Stage_Foch () {
                 <div className="one_cm_vertical_space"/> 
                 <div className='row' style={{justifyContent: "center"}}>
                    <div>
-                   <h4>
-                        Duration: 8 weeks (from 15/06/2020 to 07/08/2020)
-                    </h4>
+                   <h4>Duration: 8 weeks (from 15/06/2020 to 07/08/2020)</h4>
                     <div className="zero_point_two_cm_vertical_space"/>
                     <h4>Tuteurs:</h4>
-                    <ul style={{marginLeft: 100}}>
-                        <li>
-                            Professor Fischler (PUPH)
-                        </li>
-                        <li>
-                            Mister Trillat (DISI)
-                        </li>
-                        <li>
-                            Doctor Saad
-                        </li>
-                    </ul>
+                    <ul className="fifteen_px_mobile_text" style={{marginLeft: 100}}>
+                        <li>Professor Fischler (PUPH)</li>
+                        <li>Mister Trillat (DISI)</li>
+                        <li>Doctor Saad</li></ul>
                     <div className="zero_point_two_cm_vertical_space"/>
-                    <h4>
-                    Working in pairs
-                    </h4>
+                    <h4>Working in pair</h4>
                    </div>
                    <div>
                    <a 
-              className="title" 
-              href="https://www.hopital-foch.com/"
-              target="_blank">
-                        <img src='/Logo/Logo_HOPITAL_FOCH.png' width="230" height="120" alt="Foch Hospital Logo" /></a>
+                    className="title" 
+                    href="https://www.hopital-foch.com/"
+                    target="_blank">
+                        <img 
+                            className="Foch_Hospital_logo"
+                            src={process.env.PUBLIC_URL +'/Logo/Logo_HOPITAL_FOCH.png'}
+                            alt="Foch_Hospital_logo" /></a>
                    </div>
                 </div>
                 </div>
                 <div className="one_cm_vertical_space"/>
                 <div className='row' style={{justifyContent: "center"}}>
                     <div>
-                    <p>
-                    <u><i>Topic</i></u>: 
+                    <p className="fifteen_px_mobile_text">
+                    <u>Topic</u>: 
                     <p style={{marginLeft: 80}}>
                         Research of factors (demographic, biological, medicinal, etc.) that can influence hypothermia 
                         during a clinical stay.
@@ -54,8 +47,8 @@ export default function Stage_Foch () {
                     </p>
                     </p>
                     &nbsp;
-                    <p>
-                    <u><i>What I did</i></u>:
+                    <p className="fifteen_px_mobile_text">
+                    <u>What I did</u>:
                     <ol style={{marginLeft: 100}}>
                         <li>
                             <b>Data analysis</b>: 
@@ -77,17 +70,19 @@ export default function Stage_Foch () {
                     </ol>
                     </p>
                     <div className="zero_point_five_cm_vertical_space"/>
-                    <a 
-                    style={{color: "blue"}}
-                    className="SectionLink"
-                    href={Internship_report} 
-                    target="_blank">Click to see the non-technical internship report</a> {/*download*/}
-                    <div className="zero_point_two_cm_vertical_space"/>
-                    <a 
-                    style={{color: "blue"}}
-                    className="SectionLink"
-                    href={Internship_report} 
-                    target="_blank">Click to see the technical internship report</a> {/*download*/}
+                    <div className="fifteen_px_mobile_text">
+                        <a 
+                            style={{color: "blue"}}
+                            className="SectionLink"
+                            href={Internship_report} 
+                            target="_blank">Click to see the non-technical internship report (in French)</a> {/*download*/}
+                        <div className="zero_point_two_cm_vertical_space"/>
+                        <a 
+                          style={{color: "blue"}}
+                          className="SectionLink"
+                          href={Technical_Internship_report} 
+                          target="_blank">Click to see the technical internship report (in French)</a>
+                    </div>
                     </div>
                 </div>
             </>

@@ -2,11 +2,11 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'; 
-import Home from './components/pages/Home/Home';
-import CV from './components/pages/CV/CV';
-import Projects from './components/pages/Projects/Projects';
+import Home from './components/pages/Home/Home.js';
+import CV from './components/pages/CV/CV.js';
+import Projects from './components/pages/Projects/Projects.js';
 import Footer from './components/Footer';
-import Bonus from './components/pages/Bonus/Bonus';
+import Bonus from './components/pages/Bonus/Bonus.js';
 import ScrollToTop from './ScrollToTop';
 
 

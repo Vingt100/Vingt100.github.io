@@ -9,6 +9,7 @@
   .intro_title {
     color: #29a2ec;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-size: 40px;
   }
   
   .vertical_space {
@@ -16,5 +17,16 @@
   }
 
 .patton {
-    border: 2.5px solid white;    
+    border: 2.5px solid white;   
+    width: 400px;
+    height: 400px;  
+}
+
+@media screen and (max-width: 1000px) {
+  .intro_title {
+    color: #29a2ec;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-size: 30px;
+  }
+
 }

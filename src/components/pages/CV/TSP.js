@@ -6,7 +6,7 @@ export default function TSP() {
         <>
         <div className="zero_point_five_cm_vertical_space"/>
         <div className="row">
-            <p style={{textAlign: "Center"}}>Two semesters of common core during which all students acquire the fundamental knowledge and skills of 
+            <p className="TSP_intro_mobile_text" style={{textAlign: "Center"}}>Two semesters of common core during which all students acquire the fundamental knowledge and skills of 
                 the engineer. <br/>Scientific subjects, information and communication technologies are taught.<br/>
                 Management sciences, languages and human sciences complete this teaching.</p>
         </div>
@@ -14,10 +14,9 @@ export default function TSP() {
         <div className="row">
             <div style={{marginRight: 50}}>
                 <img 
-                className="logo_black_border" 
-                src='/Logo/math_logo.jpg' 
-                width="110" height="110" 
-                alt="Data_Science Logo" />
+                className="Math_logo" 
+                src={process.env.PUBLIC_URL +'/Logo/math_logo.jpg'}
+                alt="Math_logo" />
             </div>
             <div>
                 <h4 style={{marginLeft: 25}}>Mathematics: </h4>
@@ -32,16 +31,16 @@ export default function TSP() {
         <div className="row">
             <div style={{marginRight: 50}}>
                 <img 
-                src='/Logo/computer_science_logo.png' 
-                width="110" height="110" 
-                alt="Data_Science Logo" />
+                className="Computer_Science_logo" 
+                src={process.env.PUBLIC_URL +'/Logo/computer_science_logo.png'}
+                alt="Computer_Science_logo" />
             </div>
             <div>
                 <div className="zero_point_three_cm_vertical_space"/>
                 <h4 style={{marginLeft: 25}}>Computer Science: </h4>
             <div className="zero_point_five_cm_vertical_space"/>
-            <li><b className="red_text">Algorithms and programming language (JAVA)</b></li>
-            <li><b className="red_text">Introduction to Operating Systems (Unix shell - Bash)</b></li>
+            <li><b className="red_text">Learning of JAVA</b></li>
+            <li><b className="red_text">Learning of Unix shell - Bash</b></li>
             <li><b className="red_text">Modeling (UML), Databases (SQL) and Information Systems</b></li>
             </div>
         </div>
@@ -49,10 +48,9 @@ export default function TSP() {
         <div className="row">
             <div style={{marginRight: 50}}>
                 <img 
-                className="logo_black_border"
-                src='/Logo/Network_logo.png' 
-                width="130" height="120" 
-                alt="Network Logo" />
+                className="Network_logo"
+                src={process.env.PUBLIC_URL +'/Logo/Network_logo.png'}
+                alt="Network_logo" />
             </div>
             <div>
                 <div className="zero_point_three_cm_vertical_space"/>
@@ -67,10 +65,9 @@ export default function TSP() {
         <div className="row">
             <div style={{marginRight: 50}}>
                 <img 
-                className="logo_black_border" 
-                src='/Logo/Physics_logo.jpg' 
-                width="110" height="110" 
-                alt="Data_Science Logo" />
+                className="Physics_logo" 
+                src={process.env.PUBLIC_URL +'/Logo/Physics_logo.jpg'}
+                alt="Physics_logo" />
             </div>
             <div>
                 <div className="zero_point_three_cm_vertical_space"/>

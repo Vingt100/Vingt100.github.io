@@ -1,10 +1,10 @@
-import '../../../App.css'
+import './Home.css'
 import IntroductionSection from './IntroductionSection'
 
 export default function Home () {
     return (
         <>
-        <body style={{marginLeft: 30, marginRight: 30}}>
+        <body  className="body_margin">
             <IntroductionSection/>
             </body>
         </>
