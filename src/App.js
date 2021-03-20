@@ -22,7 +22,6 @@ export default function App() {
         <Route path="/" exact component={Home}/>
         <Route path='/CV' component={CV} />
         <Route path='/Projects' component={Projects} />
-        {/*<Route path='/sign-up' component={SignUp} />*/}
         <Route path='/Bonus' component={Bonus} />
         <Route path='*' render={() => (<Redirect to="/"/>)}/>
       </Switch>
