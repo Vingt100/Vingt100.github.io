@@ -29,4 +29,10 @@
     font-size: 30px;
   }
 
+  .patton {
+    border: 2.5px solid white;   
+    width: 95%;
+    height: 400px;  
+}
+
 }
