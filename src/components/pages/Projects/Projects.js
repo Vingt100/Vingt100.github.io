@@ -255,7 +255,7 @@ export default function Projects() {
                       </h3>
                       <div className="zero_point_eight_cm_vertical_space"/>
                       <p style={{textAlign: "center"}} className="fifteen_px_mobile_text">
-                        <h4>Application developed by a group of 4 people (including me) on Android Studio with the Kotlin 
+                        <h4 style={{textAlign: "justify", marginRight: "5px"}}>Application developed by a group of 4 people (including me) on Android Studio with the Kotlin 
                         language in order to realize a real computer software development (project over 6 months, more 
                         than 60 hours of work for each one, with as tutor Mr Belaïd, head of TSP's IT department during 
                         this period).</h4></p>
